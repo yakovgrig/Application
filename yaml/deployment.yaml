@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
 # Set your lab user name
-      app: yakogrig-hello-world
+      app: yakovgrig-hello-world
   template:
     metadata:
       labels:
