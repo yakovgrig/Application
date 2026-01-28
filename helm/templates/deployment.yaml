@@ -21,7 +21,7 @@ spec:
               protocol: TCP
           imagePullPolicy: Always
           terminationMessagePolicy: File
-          image: {{ .Values.containers.image }}:{{ .Values.containers.tag }}
+          image: {{ .Values.containers.image }}
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
